@@ -32,7 +32,19 @@ a.active{
 }
 
 .bg-primary{
-    background: rgba(64,39,160, 1) !important;
+    background: #350b40 !important;
+}
+
+.bg-secondary{
+    background: #94b5c0 !important ;
+}
+
+.bg-th{
+    background: #ad6c80 !important;
+}
+
+.bg-4{
+    background: #314e52 !important;
 }
 .btn-xl{
     padding: 12px 30px;
@@ -109,7 +121,7 @@ section{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('https://thumbs.dreamstime.com/z/modern-web-theme-computer-display-modern-theme-computer-display-professional-studio-concept-free-space-wall-text-143820639.jpg')no-repeat center center;
+    background: url('https://images.unsplash.com/photo-1465225314224-587cd83d322b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80')no-repeat center center;
     background-size: cover;
     
 }
@@ -124,6 +136,7 @@ section{
 .showcase .lead{
     line-height: 1.4;
     color: #f2f2f2;
+    
 }
 
 /*about*/
@@ -133,13 +146,16 @@ section{
 
 /*servies*/
 .services-icon{
-    width: 100px;
-    height: 100px;
-    background: #fff;
+    
+    
     color: rgba(102, 62, 255, 1);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
 }
-
+.new-1   img{
+    width: 900px;
+    height: 200px;
+   
+}
 /*portfolio*/
 .portfolio-items{
     display: block;
@@ -150,19 +166,7 @@ section{
     height: 400px;
     object-fit: cover;
 }
-.portfolio-items .caption{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    transition: all 1s ease;
 
-
-}
 .portfolio-items .caption .caption-content{
     color:rgba(255, 255, 255, 0.7);
     margin: auto 30px 30px;
@@ -171,9 +175,7 @@ section{
     font-size: 26px;
 }
 
-.portfolio-items:hover .caption{
-    background: rgba(102, 62, 255, 0.9);
-}
+
 
 
 /*SCROLL TO*/
