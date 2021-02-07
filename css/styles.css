@@ -67,7 +67,7 @@ section{
     position: relative;
     font-size: 50px;
     text-transform: uppercase;
-    color: rgba(102, 62, 255, 1);
+    color: rgb(82, 64, 155);
 }
 .lead{
     font-size: 16px;
@@ -162,7 +162,7 @@ section{
     position: relative;
     overflow: hidden;
 }
-.portfolio-items img{
+.portfolio-items video{
     height: 400px;
     object-fit: cover;
 }
